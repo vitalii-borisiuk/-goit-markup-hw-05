@@ -113,6 +113,7 @@ img {
   padding-bottom: 32px;
 
   color: var(--second-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus,
@@ -130,6 +131,7 @@ img {
   padding-bottom: 32px;
 
   color: var(--third-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contacts:focus,
 .header-contacts:hover {
@@ -196,6 +198,7 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--second-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover,
 .footer-link:focus {
@@ -208,6 +211,7 @@ img {
   letter-spacing: 0.02em;
 
   color: var(--contacts-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-contacts:hover,
 .footer-contacts:focus {
@@ -219,6 +223,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--first-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-address:hover,
@@ -263,6 +268,7 @@ img {
   height: 100%;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
@@ -316,6 +322,8 @@ img {
   background-color: var(--accent-color);
   cursor: pointer;
   padding: 10px 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-btn:hover,
 .main-btn:focus {
@@ -469,6 +477,8 @@ img {
   border-radius: 50%;
   background-color: var(--first-color);
   color: var(--icon-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-social-link:hover,
 .team-social-link:focus {
@@ -514,6 +524,8 @@ img {
   color: var(--icon-color);
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-icon {
   fill: currentColor;
@@ -560,6 +572,7 @@ img {
 }
 .work-item-focus {
   background-color: var(--first-color);
+  transition: filter 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .work-item-focus:hover,
 .work-item-focus:focus {
@@ -580,6 +593,9 @@ img {
   border-radius: 4px;
   margin-right: 8px;
   padding: 6px 22px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-btn:last-child {
   margin-right: 0;
