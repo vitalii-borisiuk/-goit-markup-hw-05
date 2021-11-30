@@ -697,6 +697,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
+  transition: opacity 250ms, visibility 250ms;
 }
 .modal {
   width: 528px;
@@ -720,4 +721,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
