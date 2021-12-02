@@ -102,10 +102,7 @@ img {
 .header {
   background-color: var(--first-color);
   border-bottom: 1px solid #ececec;
-  position: absolute;
   width: 100%;
-  top: 0;
-  left: 0;
 }
 .header-link {
   display: block;
@@ -133,7 +130,7 @@ img {
   background-color: var(--accent-color);
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -1px;
 }
 .header-contacts {
   display: flex;
@@ -247,7 +244,7 @@ img {
 }
 .footer-all {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .footer-join {
   justify-content: center;
@@ -418,6 +415,7 @@ img {
   color: var(--second-color);
   margin-bottom: 50px;
 }
+
 .about-top-text {
   font-weight: 700;
   font-size: 14px;
@@ -648,7 +646,7 @@ img {
   padding: 6px 22px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filter-btn:last-child {
   margin-right: 0;
